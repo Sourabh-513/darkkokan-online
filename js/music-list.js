@@ -11,7 +11,7 @@
 
 let allMusic = [
   {
-    name: "Harley Bird - Home",
+    name: "अज्ञात चोराचा शोध",
     artist: "Jordan Schor",
     img: "music-1",
     src: "music-1"
