@@ -12,7 +12,7 @@
 let allMusic = [
   {
     name: "अज्ञात चोराचा शोध",
-    artist: "कोकणातल्या अशाच रहस्यमय कथा ऐकण्यासाठी आत्ताच Google Play Store वरती Dark Kokan 2.0 सर्च करुन ॲप फ्री डाऊनलोड करा",
+    artist: "कोकणातल्या अशाच रहस्यमय कथा ऐकण्यासाठी आत्ताच Google Play Store वरती Dark Kokan 2.0 Search करुन ॲप फ्री डाऊनलोड करा",
     img: "music-1",
     src: "music-1"
   },
