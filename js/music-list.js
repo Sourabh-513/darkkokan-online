@@ -17,6 +17,13 @@ let allMusic = [
     src: "music-1"
   },
   
+  {
+    name: "कोकणातला रहस्यमय वाडा (Disha Joshi)",
+    artist: "कोकणातल्या अशाच रहस्यमय कथा ऐकण्यासाठी आत्ताच Google Play Store वरती Dark Kokan 2.0 Search करुन ॲप फ्री डाऊनलोड करा",
+    img: "music-2",
+    src: "music-2"
+  },
+  
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
