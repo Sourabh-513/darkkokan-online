@@ -6,15 +6,12 @@
 <title>DealHub</title>
 
 <style>
-
 body{
 margin:0;
 font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
 background:#f5f5f7;
 color:#1d1d1f;
 }
-
-/* HEADER */
 
 header{
 background:white;
@@ -25,41 +22,10 @@ top:0;
 z-index:100;
 }
 
-.logo-container{
-cursor:pointer;
-transition:0.3s;
-}
-
-.logo{
-font-size:22px;
-font-weight:600;
-transition:0.3s;
-}
-
-.sub-header{
-font-size:12px;
-color:#777;
-display:flex;
-align-items:center;
-gap:6px;
-}
-
-.yt-icon{
-width:15px;
-height:15px;
-transition:0.3s;
-}
-
-.logo-container:hover .logo{
-transform:scale(1.04);
-color:#ff9900;
-}
-
-.logo-container:hover .yt-icon{
-transform:translateY(-2px) scale(1.1);
-}
-
-/* SEARCH */
+.logo-container{cursor:pointer;}
+.logo{font-size:22px;font-weight:600;}
+.sub-header{font-size:12px;color:#777;display:flex;align-items:center;gap:6px;}
+.yt-icon{width:15px;height:15px;}
 
 .search-wrapper{
 position:sticky;
@@ -70,9 +36,7 @@ z-index:90;
 border-bottom:1px solid #eee;
 }
 
-.search-container{
-text-align:center;
-}
+.search-container{text-align:center;}
 
 .search-container input{
 width:320px;
@@ -82,21 +46,13 @@ border:1px solid #ddd;
 font-size:15px;
 }
 
-/* GRID */
-
-.container{
-max-width:1200px;
-margin:auto;
-padding:20px;
-}
+.container{max-width:1200px;margin:auto;padding:20px;}
 
 .product-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:25px;
 }
-
-/* PRODUCT CARD */
 
 .product-card{
 background:white;
@@ -135,15 +91,9 @@ object-fit:contain;
 padding:15px;
 }
 
-.card-content{
-padding:18px;
-}
+.card-content{padding:18px;}
 
-.product-title{
-font-size:16px;
-font-weight:600;
-margin-bottom:6px;
-}
+.product-title{font-size:16px;font-weight:600;margin-bottom:6px;}
 
 .product-desc{
 font-size:13px;
@@ -152,11 +102,7 @@ margin-bottom:8px;
 min-height:32px;
 }
 
-.rating{
-color:#ff9900;
-font-size:14px;
-margin-bottom:6px;
-}
+.rating{color:#ff9900;font-size:14px;margin-bottom:6px;}
 
 .discount{
 font-size:12px;
@@ -177,11 +123,7 @@ font-weight:600;
 transition:0.2s;
 }
 
-.buy-btn:hover{
-background:#e68a00;
-}
-
-/* TRUST FOOTER */
+.buy-btn:hover{background:#e68a00;}
 
 .footer-trust{
 background:white;
@@ -199,16 +141,8 @@ font-size:13px;
 color:#555;
 }
 
-.trust-item{
-text-align:center;
-max-width:250px;
-}
-
-.trust-item b{
-display:block;
-margin-bottom:4px;
-color:#1d1d1f;
-}
+.trust-item{text-align:center;max-width:250px;}
+.trust-item b{display:block;margin-bottom:4px;color:#1d1d1f;}
 
 .instagram-link{
 color:#ff9900;
@@ -216,31 +150,20 @@ text-decoration:none;
 font-weight:600;
 }
 
-footer{
-text-align:center;
-padding:15px;
-font-size:12px;
-color:#888;
-}
-
+footer{text-align:center;padding:15px;font-size:12px;color:#888;}
 </style>
 </head>
 
 <body>
 
 <header>
-
 <div class="logo-container" onclick="window.open('https://www.youtube.com/@DarkKokan','_blank')">
-
 <div class="logo">DealHub</div>
-
 <div class="sub-header">
 From Dark Kokan
 <img class="yt-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
 </div>
-
 </div>
-
 </header>
 
 <div class="search-wrapper">
@@ -254,7 +177,6 @@ From Dark Kokan
 </div>
 
 <div class="footer-trust">
-
 <div class="trust-grid">
 
 <div class="trust-item">
@@ -275,22 +197,41 @@ Flat 2.5% or maximum 4% savings on listed products.
 <div class="trust-item">
 <b>Need Better Deal?</b>
 DM us on 
-<a class="instagram-link" target="_blank" href="https://www.instagram.com/dark.kokan2.0">
-Instagram
-</a>
+<a class="instagram-link" target="_blank" href="https://www.instagram.com/dark.kokan2.0">Instagram</a>
 </div>
 
 </div>
-
 </div>
 
-<footer>
-© DealHub 2026 By Saurabh Bolade
-</footer>
+<footer>© DealHub by Dark Kokan Storyteller</footer>
 
 <script>
 
 let products = [
+
+/* SMOOTHIE GRINDER - HOT DEAL & TOP */
+
+{
+title:"Portable Smoothie Blender",
+desc:"Rechargeable personal blender perfect for smoothies and shakes on the go.",
+rating:4.95,
+discount:"Hot Deal",
+image:"https://m.media-amazon.com/images/I/51BGcz0j-wL.jpg",
+link:"https://www.amazon.in/dp/B0F9YGHHXG?tag=myweblog-21"
+},
+
+/* TECH GADGET */
+
+{
+title:"Smart Tech Gadget",
+desc:"Trending multifunction portable gadget for everyday tech convenience.",
+rating:4.8,
+discount:"Trending",
+image:"https://m.media-amazon.com/images/I/71k2PQ-bgyL._SL1500_.jpg",
+link:"https://www.amazon.in/dp/B0D5VJSV8B?tag=myweblog-21"
+},
+
+/* OLD PRODUCTS */
 
 {
 title:"70mai 3K Dash Cam",
@@ -303,54 +244,54 @@ link:"https://www.amazon.in/dp/B0CVH2K929?tag=myweblog-21"
 
 {
 title:"Ikigai Book",
-desc:"Best selling Japanese self-help book on purpose and life balance.",
 rating:4.6,
 discount:"Best Seller",
+desc:"Best selling Japanese self-help book on purpose and life balance.",
 image:"https://m.media-amazon.com/images/I/81l3rZK4lnL._SL1500_.jpg",
 link:"https://www.amazon.in/dp/178633089X?tag=myweblog-21"
 },
 
 {
 title:"Aristocrat Laptop Backpack",
-desc:"Durable and stylish backpack for office and travel use.",
 rating:4.5,
 discount:"Value Pick",
+desc:"Durable and stylish backpack for office and travel use.",
 image:"https://m.media-amazon.com/images/I/71aYGrOy6gL._SL1500_.jpg",
 link:"https://www.amazon.in/dp/B0D8BG7S4P?tag=myweblog-21"
 },
 
 {
 title:"HealthSense Smart Scale",
-desc:"Bluetooth body composition smart scale with fitness tracking.",
 rating:4.4,
 discount:"Fitness Pick",
+desc:"Bluetooth body composition smart scale with fitness tracking.",
 image:"https://m.media-amazon.com/images/I/91Qo+3EzkxL._SL1500_.jpg",
 link:"https://www.amazon.in/dp/B0CF2DH4Q5?tag=myweblog-21"
 },
 
 {
 title:"Chandravilas Horror Book",
-desc:"Popular Marathi horror novel with suspense storyline.",
 rating:4.3,
 discount:"Horror Pick",
+desc:"Popular Marathi horror novel with suspense storyline.",
 image:"https://m.media-amazon.com/images/I/71wC8TmOdqL._SL1500_.jpg",
 link:"https://www.amazon.in/dp/B0885XZG28?tag=myweblog-21"
 },
 
 {
 title:"Reebok Running Shoes",
-desc:"Lightweight comfortable shoes for daily running and workouts.",
 rating:4.3,
 discount:"Sports Pick",
+desc:"Lightweight comfortable shoes for daily running and workouts.",
 image:"https://m.media-amazon.com/images/I/51Pu2MZJqtL._SY695_.jpg",
 link:"https://www.amazon.in/dp/B09SHTBKK4?tag=myweblog-21"
 },
 
 {
 title:"Shodh Horror Book",
-desc:"Classic Marathi suspense horror novel by Narayan Dharap.",
 rating:4.2,
 discount:"Classic",
+desc:"Classic Marathi suspense horror novel by Narayan Dharap.",
 image:"https://m.media-amazon.com/images/I/81JBaa7LkkL._SL1500_.jpg",
 link:"https://www.amazon.in/dp/9352203941?tag=myweblog-21"
 }
@@ -368,51 +309,28 @@ list.forEach(p=>{
 let stars="★".repeat(Math.floor(p.rating))+"☆".repeat(5-Math.floor(p.rating));
 
 html+=`
-
 <div class="product-card">
-
 ${p.discount === "Hot Deal" ? `<div class="ribbon">HOT DEAL</div>` : ""}
-
 <img src="${p.image}" class="product-img">
-
 <div class="card-content">
-
 <div class="product-title">${p.title}</div>
-
 <div class="product-desc">${p.desc}</div>
-
 <div class="rating">${stars} (${p.rating})</div>
-
 <div class="discount">${p.discount}</div>
-
-<a href="${p.link}" target="_blank" class="buy-btn">
-View Deal on Amazon
-</a>
-
+<a href="${p.link}" target="_blank" class="buy-btn">View Deal on Amazon</a>
 </div>
-</div>
-`;
-
+</div>`;
 });
 
 document.getElementById("productGrid").innerHTML=html;
-
 }
 
 renderProducts(products);
 
-/* SEARCH */
-
 document.getElementById("searchInput").addEventListener("keyup",function(){
-
 let value=this.value.toLowerCase();
-
-let filtered=products.filter(p=>
-p.title.toLowerCase().includes(value)
-);
-
+let filtered=products.filter(p=>p.title.toLowerCase().includes(value));
 renderProducts(filtered);
-
 });
 
 </script>
